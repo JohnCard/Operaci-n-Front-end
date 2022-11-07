@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- Cabeza de la página -->
+    <header>
+        <h1>Título de la pagina</h1>
+    </header>
+
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>Info del usuario</legend>
+
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="ingresa tu nombre">
+                </div>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Personailiza tu pizza:---</legend>
+                <div>
+                    <label for="especializar">Expecialidad</label>
+                    <select name="especializar" id="especializar">
+                        <option value="">opciones</option>
+                        <option value="hawaiana">Hawaiana</option>
+                        <option value="europea">Europea</option>
+                        <option value="mexicana">Mexicana</option>
+                        <option value="azteca">Aztecana</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="personalizar">Personalización: </label>
+                    <textarea name="personalizar" id="personalizar" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            
+            <input type="submit" value="retornar">
+        </form>
+    </main>
+    <footer>
+        <b>Pie de la pagina</b>
+    </footer>
+</body>
+</html>
