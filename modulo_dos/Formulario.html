@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar_usuario</title>
+</head>
+<body>
+
+    <!-- Cabeza de la página -->
+    <header>
+        <h1>Registrate en nuestra plataforma para aprender más</h1>
+    </header>
+
+    <!-- Cuerpo de la página -->
+    <main>
+        <h2>Formulario: </h2>
+
+        <form action="#">
+            
+            <!-- Primer campo -->
+            <br><fieldset>
+                <legend>Datos Obligatorios</legend>
+                
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="name"><br><br>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="name">
+            </fieldset><br>
+
+            <!-- Segundo campo -->
+            <fieldset>
+                <legend>Opcionales</legend>
+
+                <label for="gustos_personales">Gustos personales: </label><br>
+                <textarea name="gustos_personales" id="gustos_personales" cols="45" rows="12"></textarea><br><br>
+
+                <label>
+                    Actualmente estudias <select name="estudios" id="estudios">
+                        <option value="Universidad">Universidad</option>
+                        <option value="Bachiller">Bachillerato</option>
+                        <option value="Secundaria">Secundaria</option>
+                        <option value="Primaria">Primaria</option> 
+                        <option value="nulo">Actualmente no estudio</option>
+                    </select>
+                </label>
+            </fieldset><br>
+
+            <label>
+                Digite su contraseña: <input type="password" name="password" id="password">
+
+                <br><br>Confirme su contraseña: <input type="password" name="password" id="password">
+
+            </label><br><br>
+
+            <input type="submit" value="Subir datos">
+
+        </form><br>
+
+        <!-- Regresar a casa: -->
+        <a href="Ejercicio.html">Regresar a casa</a>
+    </main>
+</body>
+</html>
