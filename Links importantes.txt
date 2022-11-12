@@ -1,0 +1,4 @@
+Para consultar información sobre lenguajes de programación:
+- https://devdocs.io/
+- https://www.w3schools.com/html/default.asp
+- https://stackoverflow.com/
