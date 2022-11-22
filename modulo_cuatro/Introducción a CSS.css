@@ -1,0 +1,23 @@
+/* Documentación */
+p{
+    color: blue;
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+}
+
+.clase_uno{
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    line-height: 2;
+    word-spacing: 3px;
+}
+
+.clase_dos{
+    background-color: white;
+    color: black;
+    text-shadow: 5px 5px 5px orangered;
+}

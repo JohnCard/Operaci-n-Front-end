@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="selectores_especificidad.css">
+    <title>Selectores y especificidad</title>
+</head>
+<body>
+    <header>
+        <h1>Cabezal de nuestra página html</h1>
+    </header>
+    <hr>
+    <main>
+        <h2>Cuerpo "main" de nuestra html</h2>
+
+        <article>
+        <h2>Modabilidades de juego avanzadas para distintos desarrolladores avanzados</h2>
+        <p>Algunos usuarios o desarrolladores avanzados optan por crear sus propios modos de juego y aplicarlos en servidores o mapas de aventura para 
+        jugar en modo de un jugador. Sin embargo, estos modos de juego suelen verse poco y la mayoría de los servidores modifican algunas extensiones 
+        para hacer parecer que tienen un modo de juego personalizado.</p>
+
+        <p>Algunos usuarios o desarrolladores avanzados optan por crear sus propios modos de juego y aplicarlos en servidores o mapas de aventura para 
+        jugar en modo de un jugador. Sin embargo, estos modos de juego suelen verse poco y la mayoría de los servidores modifican algunas extensiones 
+        para hacer parecer que tienen un modo de juego personalizado.</p>
+
+        <p>Algunos usuarios o desarrolladores avanzados optan por crear sus propios modos de juego y aplicarlos en servidores o mapas de aventura para 
+        jugar en modo de un jugador. Sin embargo, estos modos de juego suelen verse poco y la mayoría de los servidores modifican algunas extensiones 
+        para hacer parecer que tienen un modo de juego personalizado.</p>
+
+        <button class="button-one">Soy un boton perfecto</button>
+        </article>
+
+        <article>
+            <p>Hola mundo ó Hello World en nuestro pueblo de developers o desarrolladores</p>
+            <h2 class="titulo-dos">Este es el titulo "h2" de la clase titulo-dos</h2>
+            <p class="text-one">Este es un parrafo "p" perteneciente a la clase class text-one</p>
+        </article>
+
+        <hr>
+        <div class="div-one">
+
+            <!-- primer txt -->
+            <p class="txt-one">Soy un texto "p" perteneciente a la clase txt-one</p>
+            
+            <!-- 1er div -->
+            <div class="div-two">
+                <p class="txt-one">Soy un texto "p" perteneciente a la clase txt-one</p>
+            </div>
+
+            <!-- 2do div -->
+            <div class="div-three">
+                <p class="txt-one txt-two">Soy un texto "p" perteneciente a la clase txt-one y a la clase txt-two</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Atributos de los input en CSS -->
+        <div>
+            <h2>Esta seccion esta diseñada para practicar con los atributos de los tipos de "input"</h2>
+
+            <input type="text" class="first-input">
+            <input type="text" class="second-input">
+            <input type="text" class="third-input">
+        </div>
+
+        <hr>
+        <!-- Sección para selectores de estado -->
+        <div class="div-four">
+            <p>Este es un párrafo "p" del div-four</p>
+            <p>Este es un párrafo "p" del div-four</p>
+            <p>Este es un párrafo "p" del div-four</p>
+            <p>Este es un párrafo "p" del div-four</p>
+        </div>
+
+        <!-- Niveles de especificidad -->
+        <hr>
+        <h4>Titulo de tipado "h4"</h4>
+        <h4 class="class-four">Titulo "h4" de la clase class-four</h4>
+        <h4 id="id-uno">Este es el 3er titulo de tipo "h4"</h4>
+        <h4 style="color: red; background-color:green">Este el 4to titulo de tipo "h4"</h4>
+    </main>
+
+    <hr>
+    <footer>
+        <h3>Pie de nuestra red html <br>
+        siguenos para mas contenido, asi como este que acabas de ver
+        </h3>
+    </footer>
+</body>
+</html>

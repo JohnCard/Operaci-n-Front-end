@@ -1,0 +1,96 @@
+*{
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
+
+article{
+    background-color: cyan;
+}
+
+.button-one{
+    color: red;
+    box-shadow: 5px 5px 15px blue;
+    border-color: black
+}
+
+p,h2{
+    color: blueviolet;
+}
+
+.titulo-dos{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-one{
+    font-weight: bold;
+}
+
+/* A partir  de este momento empezamos ya a documentar todo nuestro 
+código para que sea mas entendible en otros futuros repasar estos 
+apuntes o notas, como los quieras ver o inclusive llamar o nombrar*/
+
+/*Esta 1er practica la realizamos para ver como se comportan 
+las heredaciones */
+
+/* Esto se aplicará si o si a absolutamente todos los hijos 
+que esten por debajo de la clase div-one */
+.div-one .txt-one{
+    color: brown;
+}
+
+/* Este background-color solo se aplicará a todos los hijos
+directos de la clase div-one */
+.div-one>.txt-one{
+    background-color: aqua;
+}
+
+/* Esto lo hacemos para comprobar la funcionalidad de la clase
+txt-two del html en la linea 47 */
+.txt-two{
+    background-color: white;
+    text-shadow: 5px 5px 12px black;
+}
+
+/* Sección para practicar con los selectores de atributo */
+input[class='first-input']{
+    background-color: brown;
+}
+
+input[class='second-input']{
+    background-color: green;
+}
+
+input[class='third-input']{
+    background-color: blueviolet;
+}
+
+/* Selectores de estado */
+input[type='text']:hover{
+    background-color: cyan;
+}
+
+/* Experimentando con first-child y otros tipados*/
+.div-four>p:first-child{
+    color: crimson;
+}
+
+.div-four>p:nth-child(2){
+    background-color: aqua;
+}
+
+.div-four>p:last-child{
+    color: chocolate;
+}
+
+/* Niveles de especificidad */
+.class-four{
+    color: chartreuse;
+}
+
+h4{
+    color: blue
+}
+
+#id-uno{
+    color: cornflowerblue;
+}
