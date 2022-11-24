@@ -1,1 +1,16 @@
 /* Clase del módulo 4 para el modelo de caja */
+header{
+    padding: 20px 40px;
+    /* padding-left: ;
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ; 
+    border-top-color: ;
+    border-top-width: ;
+    border-top-style: ; */
+    border: 2px dotted grey;
+  }
+  
+  header .logo{
+    width: 200px;
+  }
