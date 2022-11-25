@@ -1,16 +1,14 @@
-/* Clase del módulo 4 para el modelo de caja */
-header{
-    padding: 20px 40px;
-    /* padding-left: ;
-    padding-top: ;
-    padding-bottom: ;
-    padding-right: ; 
-    border-top-color: ;
-    border-top-width: ;
-    border-top-style: ; */
-    border: 2px dotted grey;
-  }
-  
-  header .logo{
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+
+/* Ejercicio de la semana */
+.clase-uno{
+    display: inline-block;
+    /* float: right; */
     width: 200px;
-  }
+    margin: 100px;
+}
