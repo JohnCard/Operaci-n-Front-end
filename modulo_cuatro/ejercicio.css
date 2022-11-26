@@ -1,0 +1,61 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+}
+
+/* Ejercicio de la semana */
+img{
+    border: 13px ridge rgb(0, 0, 255);
+    width: 400px;
+    background-image: url(/centro_img/sheep.jpg);
+}
+
+.clase-uno{
+    display: inline-block;
+    /* float: right; */
+    width: 340px;
+    margin: 100px;
+    background-color: rgb(39, 152, 11);
+    padding: 20px;
+    border: 12px ridge rgb(37, 111, 9); 
+}
+
+article{
+    background-color: darkred;
+    padding: 13px;
+    margin-top: 25px;
+    border: 13px ridge rgb(200, 16, 32);
+}
+
+footer{
+    background-color: #48d1cc;
+    padding: 20px;
+    margin-top: 25px;
+    border: 13px ridge rgb(64, 170, 174);
+}
+
+dd,dt{
+    color: #000080;
+    font-family: 'Rubik Distressed', cursive;
+    line-height: 25px;
+    text-shadow: 5px 5px 15px #000080;
+}
+dd{
+    text-decoration-line: underline;
+}
+a{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 30px;
+}
+h1,h2,h3,h4{
+    font-family: 'Rubik Microbe', cursive;
+    text-align: center;
+    text-transform: uppercase;
+}
+
